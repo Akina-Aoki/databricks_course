@@ -1,2 +1,3 @@
 # databricks_course
-Databrick Course Repository
+Databricks Course Repository with Azure
+This includes live code alongs
