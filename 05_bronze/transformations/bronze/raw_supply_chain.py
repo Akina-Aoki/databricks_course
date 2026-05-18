@@ -31,7 +31,7 @@ schema = (
 def raw_supply_chain():
     return (
         spark.readStream.format("csv")
-        .options(header="true", inferSchema="true", encoding="UTF-8")
+        .options(header="true", inferSchema="true", encoding="latin1")
         .schema(schema)
         .load(f"{BASE_DIR}/data")
     )
